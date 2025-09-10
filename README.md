@@ -214,7 +214,7 @@ function endGame() {
   }
 
   feedback.innerText =
-    `Zodpovězeno správně ${correctAnswers}/${questions.length} otázek.\n${hodnoceni}\n\nNejdou ti převody jednotek nebo chceš zlepšit své dovednosti – napiš mi na: [tvůj email]`;
+    `Zodpovězeno správně ${correctAnswers}/${questions.length} otázek.\n${hodnoceni}\n\nNejdou ti převody jednotek nebo chceš zlepšit své dovednosti – napiš mi na: pavla.drex@seznam.cz`;
 
   // tlačítko "Zkusit znovu"
   const retryBtn = document.createElement('button');
